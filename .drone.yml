@@ -7,7 +7,8 @@ pipeline:
     commands:
       - go get -u github.com/golang/dep/cmd/dep
       - export GOPATH=/drone
-      - dep ensure
-      - go build
-      - go test
+      - echo $PWD
+      # - dep ensur
+      # - go build
+      # - go test
 
