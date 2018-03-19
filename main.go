@@ -12,7 +12,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
 
-	"github.com/aws-test/core"
+	"github.com/htobenothing/aws-test/core"
 
 	"github.com/gin-gonic/gin"
 )
