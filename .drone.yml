@@ -3,7 +3,7 @@ pipeline:
     image: golang
     commands:
       - go get -u github.com/golang/dep/cmd/dep
-      - $GOPATH="/drone"
+      - export GOPATH=$HOME/drone
       - dep ensure
       - go build
       - go test
