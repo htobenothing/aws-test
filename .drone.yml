@@ -5,10 +5,10 @@ pipeline:
       - GOOS=linux
       - GOARCH=amd64
     commands:
-      - go get -u github.com/golang/dep/cmd/dep
       - export GOPATH=/drone
       - echo $PWD
+      # - go get -u github.com/golang/dep/cmd/dep
       # - dep ensur
-      # - go build
+      - go build
       # - go test
 
