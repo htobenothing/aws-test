@@ -4,3 +4,4 @@ Use [AWS golang SDK](https://github.com/aws/aws-sdk-go) for Tutorial, also try t
 
 update:
 1. use aws server for CI/CD
+2. use gin as server
